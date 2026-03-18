@@ -6,7 +6,7 @@
 
   <!-- SEO: основные -->
   <title>Московский центр хирургии грыж — лапароскопия паховой, пупочной, вентральной грыжи | Москва</title>
-  <meta name="description" content="Лечение грыжи в Москве без больших разрезов. Лапароскопическая герниопластика через 1–2 прокола. Паховая, пупочная, вентральная грыжа, диастаз. К.М.Н. Подольский М.Ю. Запись онлайн.">
+  <meta name="description" content="Лечение паховой, пупочной и послеоперационной вентральной грыжи в Москве. Лапароскопия и открытый метод. БТА при сложных случаях. К.М.Н. Подольский М.Ю. Запись онлайн.">
   <meta name="keywords" content="лечение грыжи Москва, операция паховая грыжа Москва, лапароскопия грыжа Москва, герниопластика без разрезов, пупочная грыжа операция Москва, вентральная грыжа Москва">
   <meta name="author" content="Московский центр хирургии грыж">
   <meta name="robots" content="index, follow">
@@ -392,7 +392,7 @@
 
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 24px;
     }
 
@@ -443,6 +443,21 @@
       flex-wrap: wrap;
       gap: 6px;
     }
+
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--blue);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(26,47,90,0.25);
+      padding-bottom: 2px;
+      transition: border-color 0.2s;
+    }
+    .service-link:hover { border-color: var(--blue); }
 
     .tag {
       font-size: 11px;
@@ -947,7 +962,7 @@
       <div class="services-header">
         <p class="section-label">Виды операций</p>
         <h2 class="section-title">Какие грыжи мы лечим</h2>
-        <p class="section-sub">Три основных направления — подберём метод на консультации с осмотром и УЗИ.</p>
+        <p class="section-sub">Четыре основных направления — метод подбирается индивидуально на консультации с осмотром и УЗИ.</p>
       </div>
       <div class="services-grid">
 
@@ -958,12 +973,13 @@
             </svg>
           </div>
           <h3>Паховая грыжа</h3>
-          <p>Лапароскопическая герниопластика (TEP/TAPP) через 3 небольших прокола. Сетчатый эндопротез устанавливается без натяжения тканей — международный стандарт лечения. Выписка на следующий день.</p>
+          <p>Лапароскопическая герниопластика (TEP/TAPP) через 3 небольших прокола. Сетчатый эндопротез без натяжения тканей — международный стандарт. Выписка на следующий день.</p>
           <div class="service-tags">
-            <span class="tag">3 небольших прокола</span>
-            <span class="tag">сетчатый эндопротез</span>
-            <span class="tag">выписка на следующий день</span>
+            <span class="tag">TEP / TAPP</span>
+            <span class="tag">3 прокола</span>
+            <span class="tag">Госпитализация 1 день</span>
           </div>
+          <a href="pahovaya-gryzha.html" class="service-link">Подробнее об операции →</a>
         </div>
 
         <div class="service-card">
@@ -973,28 +989,45 @@
               <path d="M12 8v8M8 12h8"/>
             </svg>
           </div>
-          <h3>Пупочная и вентральная грыжа</h3>
-          <p>Пупочные грыжи — лапароскопически. Послеоперационные вентральные грыжи — преимущественно открытым методом: позволяет точнее выбрать и зафиксировать сетчатый имплант. При сложных случаях — предоперационная подготовка с БТА.</p>
+          <h3>Пупочная грыжа</h3>
+          <p>Лапароскопическая герниопластика (IPOM) или открытая пластика в зависимости от размера грыжевого дефекта. Анестезия — местная, спинномозговая или ЭТН. Выписка на следующий день.</p>
           <div class="service-tags">
-            <span class="tag">лапароскопия</span>
-            <span class="tag">минимальные разрезы</span>
-            <span class="tag">сетчатый протез</span>
+            <span class="tag">Лапароскопия / открытый</span>
+            <span class="tag">Сетчатый имплант</span>
+            <span class="tag">Госпитализация 1 день</span>
           </div>
+          <a href="pupochnaya-gryzha.html" class="service-link">Подробнее об операции →</a>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+              <rect x="3" y="3" width="18" height="18" rx="3"/>
+              <path d="M3 9h18M9 3v18"/>
+            </svg>
+          </div>
+          <h3>Послеоперационная вентральная грыжа</h3>
+          <p>Преимущественно открытый метод (Sublay) — позволяет точнее разместить и зафиксировать сетку. При сложных и рецидивных грыжах — предоперационная подготовка ботулотоксином (БТА).</p>
+          <div class="service-tags">
+            <span class="tag">Открытый метод (Sublay)</span>
+            <span class="tag">Сетчатая пластика</span>
+            <span class="tag">БТА при сложных случаях</span>
+          </div>
+          <a href="ventralnaya-gryzha.html" class="service-link">Подробнее об операции →</a>
         </div>
 
         <div class="service-card">
           <div class="service-icon">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
               <path d="M12 2v20M2 12h20"/>
-              <path d="M7 7l10 10M17 7L7 17"/>
             </svg>
           </div>
           <h3>Диастаз прямых мышц</h3>
-          <p>Хирургическая коррекция диастаза — восстановление белой линии живота. Возможна комплексная операция: грыжа и диастаз одновременно за один наркоз. Актуально после беременности.</p>
+          <p>Хирургическая коррекция диастаза — восстановление белой линии живота. При сочетании с пупочной грыжей возможна одновременная коррекция обеих проблем. Актуально после беременности.</p>
           <div class="service-tags">
-            <span class="tag">коррекция диастаза</span>
-            <span class="tag">грыжа + диастаз одновременно</span>
-            <span class="tag">один наркоз</span>
+            <span class="tag">Коррекция диастаза</span>
+            <span class="tag">Грыжа + диастаз</span>
+            <span class="tag">После беременности</span>
           </div>
         </div>
 
