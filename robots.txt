@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gryzha-moskva.ru/sitemap.xml
